@@ -2,9 +2,6 @@
 
 A node.js Uniterm helper library.
 
-## Supported versions
-
-This library works with node versions 6, 8 and above.
 
 #### Getting Started
 
@@ -14,6 +11,13 @@ After cloning the repository, install the dependencies by running the following 
 npm install
 
 yarn install
+```
+
+#### Installation
+
+```
+npm install uniterm-node
+yarn add uniterm-node
 ```
 
 You can run the existing tests to see if everything is okay by executing: 
