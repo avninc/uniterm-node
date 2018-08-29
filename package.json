@@ -1,0 +1,62 @@
+{
+  "name": "twilio",
+  "description": "Communicate with UniTerm through Node.js",
+  "version": "0.1.0",
+  "author": "Vincent Gabriel <vincent.gabriel@avn.com>",
+  "contributors": [],
+  "keywords": [
+    "uniterm",
+    "rest",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avninc/uniterm-node.git"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.10",
+    "rootpath": "0.1.2",
+    "uuid": "^3.3.2",
+    "xml2json": "^0.11.2",
+    "xmlbuilder": "9.0.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.104",
+    "@types/node": "^9.4.6",
+    "base64-img": "^1.0.4",
+    "jasmine-node": "^1.14.5",
+    "jscs": "3.0.7",
+    "jshint": "^2.8.0",
+    "node-mocks-http": "^1.7.0",
+    "sharp": "^0.20.7"
+  },
+  "scripts": {
+    "test": "jasmine-node --captureExceptions spec/integration.spec.js",
+    "test:action": "jasmine-node --captureExceptions spec/integration.spec.js",
+    "test:ping": "npm run test:action spec/actions/ping.spec.js",
+    "test:status": "npm run test:action spec/actions/status.spec.js",
+    "test:version": "npm run test:action spec/actions/version.spec.js",
+    "test:reboot": "npm run test:action spec/actions/reboot.spec.js",
+    "test:info": "npm run test:action spec/actions/info.spec.js",
+    "test:load": "npm run test:action spec/actions/load.spec.js",
+    "test:confirm": "npm run test:action spec/actions/confirm.spec.js",
+    "test:signature": "npm run test:action spec/actions/signature.spec.js",
+    "test:input": "npm run test:action spec/actions/input.spec.js",
+    "test:upload": "npm run test:action spec/actions/upload.spec.js",
+    "test:sale": "npm run test:action spec/actions/sale.spec.js",
+    "test:transactionStartFinish": "npm run test:action spec/actions/transactionStartFinish.spec.js",
+    "test:preAuth": "npm run test:action spec/actions/preAuth.spec.js",
+    "test:reversal": "npm run test:action spec/actions/reversal.spec.js",
+    "test:void": "npm run test:action spec/actions/void.spec.js"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "main": "./lib",
+  "engines": {
+    "node": ">=6.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,19 @@
+### Logs ###
+logs
+*.log
+
+### Backup package.json created during release ###
+package.json.bak
+
+### Runtime data ###
+pids
+*.pid
+*.seed
+
+### NPM modules ###
+node_modules
+
+### Custom ignores ###
+config.js
+.idea
+
