@@ -39,4 +39,6 @@ npm run test:void
 
 #### Usage
 
+For examples of usage please refere to the Spec/actions folder.
+
 TBD
