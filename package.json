@@ -1,5 +1,5 @@
 {
-  "name": "twilio",
+  "name": "uniterm-node",
   "description": "Communicate with UniTerm through Node.js",
   "version": "0.1.0",
   "author": "Vincent Gabriel <vincent.gabriel@avn.com>",
