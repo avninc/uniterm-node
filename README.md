@@ -12,10 +12,31 @@ After cloning the repository, install the dependencies by running the following 
 
 ```bash
 npm install
+
+yarn install
 ```
 
 You can run the existing tests to see if everything is okay by executing: 
 
 ```bash
 npm test
+npm run test:ping
+npm run test:status
+npm run test:version
+npm run test:reboot
+npm run test:info
+npm run test:load
+npm run test:confirm
+npm run test:signature
+npm run test:input
+npm run test:upload
+npm run test:sale
+npm run test:transactionStartFinish
+npm run test:preAuth
+npm run test:reversal
+npm run test:void
 ```
+
+#### Usage
+
+TBD
