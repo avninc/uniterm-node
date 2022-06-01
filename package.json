@@ -28,7 +28,7 @@
     "jscs": "3.0.7",
     "jshint": "^2.8.0",
     "node-mocks-http": "^1.7.0",
-    "sharp": "^0.20.7"
+    "sharp": "^0.30.5"
   },
   "scripts": {
     "test": "jasmine-node --captureExceptions spec/integration.spec.js",
